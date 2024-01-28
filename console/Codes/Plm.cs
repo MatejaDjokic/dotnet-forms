@@ -18,7 +18,6 @@
             return str;
         }
         public static Dictionary<T, int> ListToDict<T>(List<T> list)
-#pragma warning restore CS8714 // The type cannot be used as type parameter in the generic type or method. Nullability of type argument doesn't match 'notnull' constraint.
         {
             Dictionary<T, int> dict = new();
             foreach (T key in list)

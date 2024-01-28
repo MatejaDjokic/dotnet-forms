@@ -1,10 +1,54 @@
 {
   "version": 2,
-  "dgSpecHash": "431OcR7fh58c5vbJvzhwF1tVMhOaLMAXZlnf+gE2eA26EBto2LP1G6KfaJ4nzMLyUOJh4fBkchYum9AKICXmxw==",
-  "success": true,
-  "projectFilePath": "E:\\Programiranje\\Codes\\Codes\\Codes\\Codes.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Mateja Djokic\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "xgLM6MDD3kJMtvCyEP0lKHQsaA4pZZkI2FWt9sNgLH10GyMGVWgCWXhIG2NQM1KD2xxK03gRItZ1U7sMH0yJcw==",
+  "success": false,
+  "projectFilePath": "d:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package NUnit. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
