@@ -1,0 +1,31 @@
+public static class Program
+{
+    public static void Main()
+    {
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        int zbir = 0;
+        int brojac = 0;
+        for (int i = a; i <= b; i++)
+        {
+            if (prost(i))
+            {
+                zbir += i;
+                brojac += 1;
+            }
+        }
+
+        String zbirS = zbir.ToString();
+        if(zbirS.Length > 6) { zbirS.Substring(zbirS.Length - 7, zbirS.Length - 1); }
+        Console.WriteLine("{0} {1}", brojac, zbirS);
+    }
+
+    static bool prost(int n) 
+    {
+        if (n == 1) return false;
+        for (int i = 2; i <= Math.Sqrt(n); i++)
+            if (n % i == 0)
+                return false;
+        return true;
+    }
+}

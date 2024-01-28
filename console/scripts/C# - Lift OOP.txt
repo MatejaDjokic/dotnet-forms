@@ -1,0 +1,86 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		try
+        {
+			string n = Console.ReadLine();
+			bool nap = true;
+			if (n == "1") nap = true;
+			else nap = false;
+            Lift lift = new Lift(320, nap);
+			
+            lift.Ulaz(200); Console.WriteLine();
+            
+			lift.Komanda(3); Console.WriteLine();
+            
+			lift.Izlaz(100); Console.WriteLine();
+            
+			lift.Komanda(1); Console.WriteLine();
+
+            Console.WriteLine("Trenutni Sprat: {0}, rad: {1}", lift.Sprat, lift.Rad);
+        }
+        catch (Exception e) 
+        {
+            Console.WriteLine(e); 
+        }
+	}
+}
+
+class Lift 
+{
+	private uint nosivost;
+	private uint masaULiftu;
+	private int sprat;
+	
+	double rad;
+	
+	bool imaNapon;
+	
+	public Lift (uint n, bool napon) 
+	{
+		nosivost = n;
+		imaNapon = napon;
+	}
+	
+	public int Sprat 
+	{
+		get { return sprat; }
+	}
+	
+	public double Rad 
+	{
+		get { return rad; }
+	}
+	
+	public void Ulaz (uint m) {
+		if (masaULiftu + m <= nosivost) {
+			masaULiftu += m;
+			Console.WriteLine("U lift je dodat teret od {0} kg", m);
+		}
+		else
+			Console.WriteLine("Nosivost lifta je prekoracena!");
+	}
+	public void Izlaz (uint m) {
+		if (masaULiftu - m >= 0) {
+			masaULiftu -= m;
+			Console.WriteLine("Iz lifta je oduzet teret od {0} kg", m);
+		}
+		else
+			Console.WriteLine("Nemoguce!");
+	} 
+	public void Komanda (int noviSprat) {
+		if (masaULiftu > nosivost) 
+			Console.WriteLine("Lift je preopterecen!");
+		
+		if (noviSprat > sprat) 
+			rad += masaULiftu * (noviSprat - sprat);
+		else
+			rad += 0.5 * masaULiftu * (sprat - noviSprat);
+		
+		sprat = noviSprat;
+	}
+	
+}

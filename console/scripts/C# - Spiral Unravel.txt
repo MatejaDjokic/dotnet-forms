@@ -1,0 +1,81 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp106
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int size = int.Parse(Console.ReadLine());
+            int[,] mat = RisingMat(size);
+            SpiralUnravel(mat);
+            Console.ReadKey();
+        }
+
+        static void SpiralUnravel(int[,] mat)
+        {
+            List<int> flatMatrix = new List<int>();
+            int size = mat.GetLength(0);
+
+            int top = 0, bottom = size - 1, left = 0, right = size - 1;
+            while (top <= bottom && left <= right)
+            {
+                for (int i = left; i <= right; i++)
+                {
+                    flatMatrix.Add(mat[top, i]);
+                }
+                top++;
+
+                for (int i = top; i <= bottom; i++)
+                {
+                    flatMatrix.Add(mat[i, right]);
+                }
+                right--;
+
+                if (top <= bottom)
+                {
+                    for (int i = right; i >= left; i--)
+                    {
+                        flatMatrix.Add(mat[bottom, i]);
+                    }
+                    bottom--;
+                }
+
+                if (left <= right)
+                {
+                    for (int i = bottom; i >= top; i--)
+                    {
+                        flatMatrix.Add(mat[i, left]);
+                    }
+                    left++;
+                }
+            }
+            for (int i = 0; i < flatMatrix.Count; i++)
+            {
+                Console.Write(flatMatrix[i] + " ");
+            }
+
+        }
+
+        static int[,] RisingMat(int size)
+        {
+            int[,] mat = new int[size, size];
+
+            int brojac = 1;
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    mat[i, j] = brojac;
+                    brojac++;
+                }
+            }
+
+            return mat;
+        }
+    }
+}

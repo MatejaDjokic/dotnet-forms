@@ -1,0 +1,82 @@
+using System.Collections.Generic;
+using System.Linq;
+using System;
+
+using vec2;
+using orientation;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // n je broj drveca 
+        int n = int.Parse(Console.ReadLine()!);
+        // pravimo listu pozicija drveca
+        List<Vec2> trees = new List<Vec2>();
+
+        // u listu trees dodajemo tacke pozicija drveca
+        for (int i = 0; i < n; i++)
+            trees.Add(new Vec2());
+
+        // sortiramo listu tacaka(trees) uz pomoc algoritma GiftWrapping
+        List<Vec2> convexHull = ConvexHull(trees);
+        // ispisujemo sve tacke
+        convexHull.ForEach((e) => Console.WriteLine(e));
+    }
+
+    static List<Vec2> ConvexHull(List<Vec2> points)
+    {
+        // broj tacaka
+        int n = points.Count;
+
+        // ako je broj tacaka 2 ili 1 ne mozemo izracunati konveksni omotac
+        if (n < 3)
+            throw new InvalidOperationException("Convex hull not possible with less than 3 points.");
+
+        // pravimo listu tacaka konveksnog omotaca
+        List<Vec2> convexHull = new List<Vec2>();
+
+        // trazimo indeks skroz desne tacke 
+        int rightmostIndex = points.IndexOf(points.OrderByDescending(p => p.x).ThenByDescending(p => p.y).First());
+
+        // stavljamo da je trenutna tacka skroz desna tacka
+        int currentPoint = rightmostIndex;
+        // definisemo sledecu tacku
+        int nextPoint;
+
+        // dok trenutna tacka i skroz desna tacka nisu iste ponavljamo
+        do
+        {
+            // u omotac dodajemo trenutnu tacku
+            convexHull.Add(points[currentPoint]);
+            // izracunavamo sledecu tacku
+            nextPoint = (currentPoint + 1) % n;
+
+            // proveravamo orijentaciju svih tacaka od linije
+            // definisane od trenutne tacke i sledece tacke
+            // ako postoji levlja tacka stavlja je da bude sledeca
+            for (int i = 0; i < n; i++)
+            {
+                if (GetOrientation(points[currentPoint], points[i], points[nextPoint]) == Orientation.COUNTERCLOCKWISE)
+                {
+                    nextPoint = i;
+                }
+            }
+            // sledeca postaje trenutna
+            currentPoint = nextPoint;
+
+        } while (currentPoint != rightmostIndex);
+
+        // kada zavrsimo vracamo skup tacaka
+        return convexHull;
+    }
+    static Orientation GetOrientation(Vec2 p, Vec2 q, Vec2 r)
+    {
+        // p i q definisu liniju
+        // od odnosu na val vrednost gledamo da li je takca r
+        // sa leve ili desne strane ili na pravi(kolinearna)
+        double val = (q.y - p.y) * (r.x - q.x) - (q.x - p.x) * (r.y - q.y);
+        if (val == 0) return Orientation.COLINEAR;
+        return (val > 0) ? Orientation.CLOCKWISE : Orientation.COUNTERCLOCKWISE;
+    }
+}

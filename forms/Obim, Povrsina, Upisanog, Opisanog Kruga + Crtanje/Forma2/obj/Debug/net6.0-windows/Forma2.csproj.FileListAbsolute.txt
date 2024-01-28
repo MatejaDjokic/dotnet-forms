@@ -1,0 +1,34 @@
+E:\Programiranje\Codes\Forma2\Forma2\bin\Debug\net6.0-windows\Forma2.exe
+E:\Programiranje\Codes\Forma2\Forma2\bin\Debug\net6.0-windows\Forma2.deps.json
+E:\Programiranje\Codes\Forma2\Forma2\bin\Debug\net6.0-windows\Forma2.runtimeconfig.json
+E:\Programiranje\Codes\Forma2\Forma2\bin\Debug\net6.0-windows\Forma2.dll
+E:\Programiranje\Codes\Forma2\Forma2\bin\Debug\net6.0-windows\Forma2.pdb
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.csproj.AssemblyReference.cache
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.Form1.resources
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.csproj.GenerateResource.cache
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.AssemblyInfoInputs.cache
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.AssemblyInfo.cs
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.csproj.CoreCompileInputs.cache
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.dll
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\refint\Forma2.dll
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.pdb
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\Forma2.genruntimeconfig.cache
+E:\Programiranje\Codes\Forma2\Forma2\obj\Debug\net6.0-windows\ref\Forma2.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\bin\Debug\net6.0-windows\Forma2.exe
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\bin\Debug\net6.0-windows\Forma2.deps.json
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\bin\Debug\net6.0-windows\Forma2.runtimeconfig.json
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\bin\Debug\net6.0-windows\Forma2.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\bin\Debug\net6.0-windows\Forma2.pdb
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.Form1.resources
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.csproj.GenerateResource.cache
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.AssemblyInfoInputs.cache
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.AssemblyInfo.cs
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.csproj.CoreCompileInputs.cache
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\refint\Forma2.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.pdb
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.genruntimeconfig.cache
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\ref\Forma2.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina, Upisanog, Opisanog Kruga + Crtanje\Forma2\obj\Debug\net6.0-windows\Forma2.sourcelink.json

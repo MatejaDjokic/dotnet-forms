@@ -1,0 +1,26 @@
+﻿using System;
+
+using vec3;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Unosimo prvi vektor
+        Vec3 v1 = new Vec3();
+        // Unosimo drugi vektor
+        Vec3 v2 = new Vec3();
+
+        // Racunamo vektorski proizvod vektora v1 i v2
+        Vec3 v3 = v1.cross(v2);
+        // Ako je skalarni proizvod vektora v1 i v2 jednak 0, v1 i v2 su normalni
+        if (v1.dot(v2) == 0)
+            Console.WriteLine("Resenje: normalni");
+        // Ako je vektorski proizvod nulti vektro
+        // tj. sve komponenta su jednake nuli, v1 i v2 su kolinearni
+        else if (v3.x == 0 && v3.y == 0 && v3.z == 0)
+            Console.WriteLine("Resenje: kolinearni");
+        else
+            Console.WriteLine("-");
+    }
+}

@@ -1,0 +1,18 @@
+﻿[
+  {
+    "username": "MatejaDjokic",
+    "password": "1234",
+    "email": "matejadjokic23@gmail.com",
+    "first_name": "Mateja",
+    "last_name": "Djokic",
+    "age": 17
+  },
+  {
+    "username": "BorisJovanetic31",
+    "password": "bokadev31",
+    "email": "bokadev@gmail.com",
+    "first_name": "Boris",
+    "last_name": "Jovanetic",
+    "age": 16
+  }
+]

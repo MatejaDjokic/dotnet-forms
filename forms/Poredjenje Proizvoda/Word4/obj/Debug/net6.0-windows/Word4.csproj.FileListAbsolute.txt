@@ -1,0 +1,34 @@
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.csproj.AssemblyReference.cache
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.Form1.resources
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.csproj.GenerateResource.cache
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.AssemblyInfoInputs.cache
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.AssemblyInfo.cs
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.csproj.CoreCompileInputs.cache
+E:\Programiranje\Codes\Word4\Word4\bin\Debug\net6.0-windows\Word4.exe
+E:\Programiranje\Codes\Word4\Word4\bin\Debug\net6.0-windows\Word4.deps.json
+E:\Programiranje\Codes\Word4\Word4\bin\Debug\net6.0-windows\Word4.runtimeconfig.json
+E:\Programiranje\Codes\Word4\Word4\bin\Debug\net6.0-windows\Word4.dll
+E:\Programiranje\Codes\Word4\Word4\bin\Debug\net6.0-windows\Word4.pdb
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.dll
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\refint\Word4.dll
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.pdb
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\Word4.genruntimeconfig.cache
+E:\Programiranje\Codes\Word4\Word4\obj\Debug\net6.0-windows\ref\Word4.dll
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\bin\Debug\net6.0-windows\Word4.exe
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\bin\Debug\net6.0-windows\Word4.deps.json
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\bin\Debug\net6.0-windows\Word4.runtimeconfig.json
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\bin\Debug\net6.0-windows\Word4.dll
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\bin\Debug\net6.0-windows\Word4.pdb
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.Form1.resources
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.csproj.GenerateResource.cache
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.AssemblyInfoInputs.cache
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.AssemblyInfo.cs
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.csproj.CoreCompileInputs.cache
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.sourcelink.json
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.dll
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\refint\Word4.dll
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.pdb
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\Word4.genruntimeconfig.cache
+E:\Programiranje\Codes\Forme\Poredjenje Proizvoda\Word4\obj\Debug\net6.0-windows\ref\Word4.dll

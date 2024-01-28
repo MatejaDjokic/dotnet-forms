@@ -1,0 +1,27 @@
+using System.Collections.Generic;
+using System.Linq;
+using System;
+
+using line;
+using vec2;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // pravimo liniju l1 sa tackama a1 i b1
+        Line l1 = new Line();
+        // pravimo liniju l2 sa tackama a2 i b2
+        Line l2 = new Line();
+        // nalazimo tacku preseka l1 i l2 ako postoji
+        Vec2 intersection = l1.Interection(l2);
+        // ako postoji ispisujemo je, ako ne ne ispisujemo je
+        if (intersection != null)
+        {
+            Console.WriteLine("da");
+            Console.WriteLine(intersection.ToString());
+        }
+        else
+            Console.WriteLine("ne");
+    }
+}

@@ -1,0 +1,10 @@
+using Codes.Text;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        String w = Console.ReadLine()!;
+        Console.WriteLine(Text.LongestPalindrome(w));
+    }
+}

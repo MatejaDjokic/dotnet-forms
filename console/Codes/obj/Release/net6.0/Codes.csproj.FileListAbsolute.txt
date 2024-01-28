@@ -1,0 +1,5 @@
+E:\Programiranje\Codes\Codes\Codes\obj\Release\net6.0\Codes.csproj.AssemblyReference.cache
+E:\Programiranje\Codes\Codes\Codes\obj\Release\net6.0\Codes.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programiranje\Codes\Codes\Codes\obj\Release\net6.0\Codes.AssemblyInfoInputs.cache
+E:\Programiranje\Codes\Codes\Codes\obj\Release\net6.0\Codes.AssemblyInfo.cs
+E:\Programiranje\Codes\Codes\Codes\obj\Release\net6.0\Codes.csproj.CoreCompileInputs.cache

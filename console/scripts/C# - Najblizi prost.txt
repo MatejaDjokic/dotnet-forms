@@ -1,0 +1,53 @@
+public static class Program
+{
+    public static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        if(prost(n))
+            Console.WriteLine("prost broj {0}",n);
+        else
+            najbliziProst(n);
+    }
+
+    static void najbliziProst(int n)
+    {
+        int gornji = najbliziProstGornji(n);
+        int donji = najbliziProstDonji(n);
+        if (n - donji == gornji - n)
+            Console.WriteLine("dva broja {0},{1}", donji, gornji);
+        else if (gornji - n > n - donji)
+            Console.WriteLine("prost broj {0}", donji);
+        else Console.WriteLine("prost broj {0}", gornji);
+    }
+
+    static int najbliziProstGornji(int n) 
+    {
+        int broj = n;
+        while(true)
+        {
+            if (prost(broj))
+                return broj;
+            else ++broj;
+        }
+    }
+    static int najbliziProstDonji(int n)
+    {
+        int broj = n;
+        while(true)
+        {
+            if (prost(broj))
+                return broj;
+            else --broj;
+        }
+    }
+
+    static bool prost(int n)
+    {
+        if (n == 1) return false;
+        for (int i = 2; i <= Math.Sqrt(n); i++)
+            if(n % i == 0)
+                return false;
+        return true;
+    }
+
+}

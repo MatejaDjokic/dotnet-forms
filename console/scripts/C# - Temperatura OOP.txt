@@ -1,0 +1,71 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        Random r = new Random();
+        int min = -100;
+        int max = 100;
+
+        Temperatura[] temperature = new Temperatura[5];
+        temperature[0] = new Temperatura(r.Next(min, max));
+        temperature[1] = new Temperatura(r.Next(min, max));
+        temperature[2] = new Temperatura(r.Next(min, max));
+        temperature[3] = new Temperatura(r.Next(min, max));
+        temperature[4] = new Temperatura(r.Next(min, max));
+
+        Console.WriteLine("╔═══════════╦═══════════╦═══════════╗");
+        Console.WriteLine("║     C     ║     K     ║     F     ║");
+        Console.WriteLine("╠═══════════╩═══════════╩═══════════╣");
+
+        int length = 8;
+        foreach (Temperatura t in temperature)
+        {
+            Console.WriteLine("║ {0}C   = {1}K   = {2}F   ║", Util.toLength(t.C().ToString(), length), Util.toLength(t.K().ToString(), length), Util.toLength(t.F().ToString(), length));
+        }
+
+        Console.WriteLine("╚═══════════════════════════════════╝");
+    }
+}
+
+class Util
+{
+    public static string toLength(string str, int len)
+    {
+        if (str.Length < len)
+        {
+            for (int i = 0; i < (len - str.Length) - 1; i++)
+            {
+                str = " " + str;
+            }
+            return str;
+        }
+        else
+            return str;
+    }
+}
+
+class Temperatura
+{
+    double temperatura;
+
+    public Temperatura(double temp)
+    {
+        temperatura = temp;
+    }
+
+    public double C()
+    {
+        return temperatura;
+    }
+
+    public double F()
+    {
+        return temperatura * 1.8 + 32.0;
+    }
+    public double K()
+    {
+        return temperatura + 273.15;
+    }
+}

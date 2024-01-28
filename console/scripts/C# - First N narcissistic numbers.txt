@@ -1,0 +1,81 @@
+﻿using System;
+
+public class Program
+{
+    public static void Main()
+    {
+
+        int n = int.Parse(Console.ReadLine());
+        int[] narcisi = new int[n];
+        int brojac = 0;
+        int inputNumber = 0;
+        int inkrement = 1;
+        while (brojac < n)
+        {
+            if (checkNarcissistic(inputNumber))
+            {
+                narcisi[brojac] = inputNumber;
+                Console.Clear();
+                for (int i = 0; i < narcisi.Length; i++)
+                {
+                    Console.WriteLine((i + 1) + ": " + narcisi[i]);
+                }
+                if (narcisi[brojac + 1] - narcisi[brojac] > 100 && brojac + 1 < narcisi.Length)
+                    inkrement += 10;
+                brojac += inkrement;
+            }
+            inputNumber++;
+        }
+    }
+
+    static int countDig(int num)
+    {
+        if (num == 0)
+            return 0;
+        return 1 + countDig(num / 10);
+    }
+
+    static bool checkNarcissistic(int num)
+    {
+
+        int p = countDig(num);
+
+        int temp = num;
+
+        int sum = 0;
+
+        while (temp > 0)
+        {
+            sum += (int)Math.Pow(temp % 10, p);
+
+            temp = temp / 10;
+        }
+
+        return (num == sum);
+    }
+}
+/*
+10: 153
+11: 370
+12: 371
+13: 407
+14: 1634
+15: 8208
+16: 9474
+17: 54748
+18: 92727
+19: 93084
+20: 548834
+21: 1741725
+22: 4210818
+23: 9800817
+24: 9926315
+25: 24678050
+26: 24678051
+27: 88593477
+28: 146511208
+29: 472335975
+ */
+/*
+ 
+ */

@@ -1,0 +1,34 @@
+E:\Programiranje\Codes\Forms\Forms\bin\Debug\net6.0-windows\Forms.exe
+E:\Programiranje\Codes\Forms\Forms\bin\Debug\net6.0-windows\Forms.deps.json
+E:\Programiranje\Codes\Forms\Forms\bin\Debug\net6.0-windows\Forms.runtimeconfig.json
+E:\Programiranje\Codes\Forms\Forms\bin\Debug\net6.0-windows\Forms.dll
+E:\Programiranje\Codes\Forms\Forms\bin\Debug\net6.0-windows\Forms.pdb
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.csproj.AssemblyReference.cache
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.Form1.resources
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.csproj.GenerateResource.cache
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.AssemblyInfoInputs.cache
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.AssemblyInfo.cs
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.csproj.CoreCompileInputs.cache
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.dll
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\refint\Forms.dll
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.pdb
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\Forms.genruntimeconfig.cache
+E:\Programiranje\Codes\Forms\Forms\obj\Debug\net6.0-windows\ref\Forms.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\bin\Debug\net6.0-windows\Forms.exe
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\bin\Debug\net6.0-windows\Forms.deps.json
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\bin\Debug\net6.0-windows\Forms.runtimeconfig.json
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\bin\Debug\net6.0-windows\Forms.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\bin\Debug\net6.0-windows\Forms.pdb
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.Form1.resources
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.csproj.GenerateResource.cache
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.AssemblyInfoInputs.cache
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.AssemblyInfo.cs
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.csproj.CoreCompileInputs.cache
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.sourcelink.json
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\refint\Forms.dll
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.pdb
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\Forms.genruntimeconfig.cache
+E:\Programiranje\Codes\Forme\Obim, Povrsina + PI\Forms\obj\Debug\net6.0-windows\ref\Forms.dll

@@ -1,0 +1,11 @@
+using Codes.Text;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        String niska = Console.ReadLine()!;
+        String podniska = Console.ReadLine()!;
+        Console.WriteLine(Text.TimesInString(niska, podniska));
+    }
+}

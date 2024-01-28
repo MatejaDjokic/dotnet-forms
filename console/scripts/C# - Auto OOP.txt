@@ -1,0 +1,122 @@
+using System.Xml;
+
+namespace Auto
+{
+    class Automobil
+    {
+        double _kapacitetRezervoara; // kapacitet automobila izrazen u l - (litrima)
+        double _maksimalnaBrzina; // maksimalna brzina automobila izrazena u km/h - (kilometrima po satu)
+        int _kubikaza; // radna zapremina(kubikaza) izrazena u cm^3 - (u centimetrima kubnim)
+        double _potrosnjaProsecna; // prosecna potrosnja goriva na bilo kom terenu izrazenu u l/km - (litrima po kilometru)
+        int _godiste; // godina proizvodnje vozila
+        string _marka; // marka automobila
+        string _model; // model automobila
+
+        private double _stanjeRezervoara; // trenutno stanje rezervoara (koliko se goriva nalazi u rezervoaru)
+
+        public Automobil()
+        {
+            _marka = "";
+            _model = "";
+            _kapacitetRezervoara = 100.0;
+            _potrosnjaProsecna = 0.1;
+        }
+
+        public bool ImaGoriva()
+        {
+            return _stanjeRezervoara > 0.0 ;
+        }
+
+        public void Vozi(double brzina, double udaljenost)
+        {
+            if (brzina < 0) { Console.WriteLine("Brzina ne sme biti negativna!"); Environment.Exit(0); }
+
+            double ukupnaPotrosnja = (udaljenost / 100) * (brzina / 10);
+
+            if (ukupnaPotrosnja > _stanjeRezervoara)
+            {
+                Console.WriteLine("Nemate dovoljno goriva!");
+                Console.WriteLine($"Stanje rezervoara: {_stanjeRezervoara} litara");
+                Console.WriteLine($"Natocite jos {ukupnaPotrosnja - _kapacitetRezervoara} litara!");
+
+                Console.WriteLine("Da li zelite da natocite gorivo? da/ne");
+                bool izbor = Console.ReadLine().ToLower() == "da";
+
+                if (izbor)
+                {
+                    Console.WriteLine("Koliko goriva zelite da natocite? (u litrima) \n> ");
+                    int kolicina = int.Parse(Console.ReadLine());
+                    Natoci(kolicina);
+                    Vozi(brzina, udaljenost);
+                }
+            }
+            else
+            {
+                _stanjeRezervoara -= ukupnaPotrosnja;
+                Console.WriteLine($"Stanje rezervoara: {_stanjeRezervoara:0.0} l");
+                Console.WriteLine($"Potroseno gorivo: {ukupnaPotrosnja:0.0} l");
+                Console.WriteLine($"Predjeni put: {udaljenost:0.0} km");
+                Console.WriteLine($"Brzina: {brzina} km/h");
+                Console.WriteLine($"Putarina: {IzracunajPutarinu(udaljenost)} dinara");
+            }
+        }
+
+        // zadaje kolicinu goriva u rezervoaru
+        public void URezervoaru(double gorivo)
+        {
+            _stanjeRezervoara = gorivo;
+        }
+
+        // na trenutnu kolicinu goriva dodajemo odredjenu kolicinu
+        public void Natoci(double kolicina)
+        {
+            if (kolicina < 0) { Console.WriteLine("Broj litara ne sme biti negativan!"); Environment.Exit(0); }
+            else if (kolicina > _kapacitetRezervoara) { Console.WriteLine("Broj litara ne sme biti veci od kapaciteta rezervoara!"); Environment.Exit(0); }
+            else
+            {
+                _stanjeRezervoara += kolicina;
+                Console.WriteLine($"Natoceno je {kolicina} litara. \n U rezervoaru {_stanjeRezervoara}");
+            }
+        }
+
+        // trenutnu kolicinu goriva zadajemo da bude maksimalna kolicina rezervoara
+        public void Natoci()
+        {
+            _stanjeRezervoara = _kapacitetRezervoara;
+        }
+
+        // uz pomoc predjenog puta izracunavamo kolika ce biti putarina
+        private double IzracunajPutarinu(double udaljenost)
+        {
+            return (udaljenost - (udaljenost % 100));
+        }
+    }
+
+    /*
+    class Punto : Automobil //Fiat Punto 1.2
+    {
+        public Punto(int godiste)
+        {
+            _godiste = godiste;
+            _marka = "Fiat";
+            _model = "Punto";
+            _kapacitetRezervoara = 47;
+            _maksimalnaBrzina = 155;
+            _potrosnjaProsecna = 0.057;
+        }
+    }
+
+    class Micra : Automobil // Nissan Micra
+    {
+        public Micra(int godiste)
+        {
+            _godiste = godiste;
+            _marka = "Nissan";
+            _model = "Micra";
+            _kapacitetRezervoara = 46;
+            _maksimalnaBrzina = 145 * Math.PI;
+            _potrosnjaProsecna = 0.059;
+        }
+    }
+    */
+}

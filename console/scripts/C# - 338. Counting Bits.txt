@@ -1,0 +1,40 @@
+using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Security.AccessControl;
+
+public class Solution
+{
+
+    public static void Main(string[] args)
+    {
+        int[] arr = CountBits(5);
+
+        foreach (var a in arr)
+        {
+            Console.Write(a + " ");
+        }
+    }
+    public static int CountOnes(string str)
+    {
+        int brojac = 0;
+        foreach (char c in str)
+        {
+            if (c == '1')
+                brojac++;
+        }
+        return brojac;
+    }
+    
+    public static int[] CountBits(int n)
+    {
+        int[] arr = new int[n + 1];
+
+        for (int i = 0; i <= n; i++)
+        {
+            string binary = Convert.ToString(i, 2);
+            arr[i] = CountOnes(binary);
+        }
+
+        return arr;
+    }
+} 
