@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skocko", "Skocko\Skocko.csproj", "{F21EA385-B67E-4262-ABED-8B6C5B0EF360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21EA385-B67E-4262-ABED-8B6C5B0EF360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21EA385-B67E-4262-ABED-8B6C5B0EF360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21EA385-B67E-4262-ABED-8B6C5B0EF360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21EA385-B67E-4262-ABED-8B6C5B0EF360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83C603AB-C9B9-40C6-B305-56AEC0D2ED10}
+	EndGlobalSection
+EndGlobal
