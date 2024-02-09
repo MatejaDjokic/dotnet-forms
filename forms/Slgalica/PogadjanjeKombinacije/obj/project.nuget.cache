@@ -1,8 +1,45 @@
 {
   "version": 2,
-  "dgSpecHash": "e2Nd1BqFKPunO/sPH2fPAqpQuIdv0W5s7mIFunF88t6K+lHp648owM+4ITyd/gAz6w9s49OOzqqanpdDmZQEYQ==",
-  "success": true,
-  "projectFilePath": "E:\\Programiranje\\Codes\\Forme\\Slgalica\\PogadjanjeKombinacije\\PogadjanjeKombinacije.csproj",
+  "dgSpecHash": "MI1JpVxwF3rFNYiYpb/1RWYMRvbF4Z7hOKQWFLIoCeKeEqbhHdTsRyNvwgV5i0954J44m+5i5mr4PAhIQhEQYw==",
+  "success": false,
+  "projectFilePath": "D:\\Programiranje\\dotnet-projects\\forms\\Slgalica\\PogadjanjeKombinacije\\PogadjanjeKombinacije.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

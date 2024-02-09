@@ -6,8 +6,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        double inches = double.Parse(Console.ReadLine());
-        double centimeters = inches * 2.54;
-        Console.WriteLine(centimeters.ToString("0.00"));
+        int usd = int.Parse(Console.ReadLine());
+        int bgn = usd * 1.79549;
+        Console.WriteLine($"{sud} usd = {bgn} bgn");
     }
 }

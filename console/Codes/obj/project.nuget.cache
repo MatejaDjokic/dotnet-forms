@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xgLM6MDD3kJMtvCyEP0lKHQsaA4pZZkI2FWt9sNgLH10GyMGVWgCWXhIG2NQM1KD2xxK03gRItZ1U7sMH0yJcw==",
+  "dgSpecHash": "/0cIRlIbuY4P4lRjh2rLWPTSFW6hDUZbcuhHHHXyvuTBkIHgsqqJM+h121Qwnlq5Me/Sm+wlKm8AcCKRJ4S0bw==",
   "success": false,
-  "projectFilePath": "d:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
+  "projectFilePath": "D:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
@@ -17,8 +17,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.NETCore.App.Ref",
+      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
       "targetGraphs": [
         "net6.0"
       ]
@@ -26,8 +26,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
       "targetGraphs": [
         "net6.0"
       ]

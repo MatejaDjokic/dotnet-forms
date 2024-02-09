@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PogadjanjeKombinacije")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+348d28834baeb2c680a988c9d604d64b675a7d9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90b59bacec15bfa3cf2714aef0e23de7be8142d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("PogadjanjeKombinacije")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PogadjanjeKombinacije")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

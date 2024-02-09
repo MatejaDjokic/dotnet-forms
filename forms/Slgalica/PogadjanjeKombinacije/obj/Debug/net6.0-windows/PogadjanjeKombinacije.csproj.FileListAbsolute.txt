@@ -34,3 +34,6 @@ E:\Programiranje\Codes\Forme\Slgalica\PogadjanjeKombinacije\obj\Debug\net6.0-win
 E:\Programiranje\Codes\Forme\Slgalica\PogadjanjeKombinacije\obj\Debug\net6.0-windows\PogadjanjeKombinacije.pdb
 E:\Programiranje\Codes\Forme\Slgalica\PogadjanjeKombinacije\obj\Debug\net6.0-windows\PogadjanjeKombinacije.genruntimeconfig.cache
 E:\Programiranje\Codes\Forme\Slgalica\PogadjanjeKombinacije\obj\Debug\net6.0-windows\ref\PogadjanjeKombinacije.dll
+D:\Programiranje\dotnet-projects\forms\Slgalica\PogadjanjeKombinacije\obj\Debug\net6.0-windows\PogadjanjeKombinacije.dll
+D:\Programiranje\dotnet-projects\forms\Slgalica\PogadjanjeKombinacije\obj\Debug\net6.0-windows\refint\PogadjanjeKombinacije.dll
+D:\Programiranje\dotnet-projects\forms\Slgalica\PogadjanjeKombinacije\obj\Debug\net6.0-windows\PogadjanjeKombinacije.pdb

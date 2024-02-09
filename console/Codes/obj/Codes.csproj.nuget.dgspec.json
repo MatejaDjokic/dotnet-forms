@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj": {}
+    "D:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj": {}
   },
   "projects": {
-    "d:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj": {
+    "D:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
+        "projectUniqueName": "D:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
         "projectName": "Codes",
-        "projectPath": "d:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
+        "projectPath": "D:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
         "packagesPath": "C:\\Users\\djokic\\.nuget\\packages\\",
-        "outputPath": "d:\\Programiranje\\dotnet-projects\\console\\Codes\\obj\\",
+        "outputPath": "D:\\Programiranje\\dotnet-projects\\console\\Codes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",

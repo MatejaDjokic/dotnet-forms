@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
+      "projectUniqueName": "D:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
       "projectName": "Codes",
-      "projectPath": "d:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
+      "projectPath": "D:\\Programiranje\\dotnet-projects\\console\\Codes\\Codes.csproj",
       "packagesPath": "C:\\Users\\djokic\\.nuget\\packages\\",
-      "outputPath": "d:\\Programiranje\\dotnet-projects\\console\\Codes\\obj\\",
+      "outputPath": "D:\\Programiranje\\dotnet-projects\\console\\Codes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.NETCore.App.Ref",
+      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
       "targetGraphs": [
         "net6.0"
       ]
@@ -112,8 +112,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
       "targetGraphs": [
         "net6.0"
       ]

@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programiranje\\Codes\\Forme\\PogadjanjeBroja\\PogadjanjeBroja\\PogadjanjeBroja.csproj": {}
+    "D:\\Programiranje\\dotnet-projects\\forms\\PogadjanjeBroja\\PogadjanjeBroja\\PogadjanjeBroja.csproj": {}
   },
   "projects": {
-    "E:\\Programiranje\\Codes\\Forme\\PogadjanjeBroja\\PogadjanjeBroja\\PogadjanjeBroja.csproj": {
+    "D:\\Programiranje\\dotnet-projects\\forms\\PogadjanjeBroja\\PogadjanjeBroja\\PogadjanjeBroja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programiranje\\Codes\\Forme\\PogadjanjeBroja\\PogadjanjeBroja\\PogadjanjeBroja.csproj",
+        "projectUniqueName": "D:\\Programiranje\\dotnet-projects\\forms\\PogadjanjeBroja\\PogadjanjeBroja\\PogadjanjeBroja.csproj",
         "projectName": "PogadjanjeBroja",
-        "projectPath": "E:\\Programiranje\\Codes\\Forme\\PogadjanjeBroja\\PogadjanjeBroja\\PogadjanjeBroja.csproj",
-        "packagesPath": "C:\\Users\\Mateja Djokic\\.nuget\\packages\\",
-        "outputPath": "E:\\Programiranje\\Codes\\Forme\\PogadjanjeBroja\\PogadjanjeBroja\\obj\\",
+        "projectPath": "D:\\Programiranje\\dotnet-projects\\forms\\PogadjanjeBroja\\PogadjanjeBroja\\PogadjanjeBroja.csproj",
+        "packagesPath": "C:\\Users\\djokic\\.nuget\\packages\\",
+        "outputPath": "D:\\Programiranje\\dotnet-projects\\forms\\PogadjanjeBroja\\PogadjanjeBroja\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mateja Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -50,6 +49,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

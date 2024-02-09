@@ -17,3 +17,6 @@ E:\Programiranje\Codes\Codes\Codes\bin\Debug\net6.0\nunit.framework.dll
 E:\Programiranje\Codes\Codes\Codes\bin\Debug\net6.0\nunit.framework.legacy.dll
 E:\Programiranje\Codes\Codes\Codes\obj\Debug\net6.0\Codes.csproj.CopyComplete
 E:\Programiranje\Codes\Codes\Codes\obj\Debug\net6.0\Codes.sourcelink.json
+D:\Programiranje\dotnet-projects\console\Codes\obj\Debug\net6.0\Codes.dll
+D:\Programiranje\dotnet-projects\console\Codes\obj\Debug\net6.0\refint\Codes.dll
+D:\Programiranje\dotnet-projects\console\Codes\obj\Debug\net6.0\Codes.pdb
