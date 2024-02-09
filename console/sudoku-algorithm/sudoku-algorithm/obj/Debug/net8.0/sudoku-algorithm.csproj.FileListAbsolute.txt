@@ -1,0 +1,15 @@
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\bin\Debug\net8.0\sudoku-algorithm.exe
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\bin\Debug\net8.0\sudoku-algorithm.deps.json
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\bin\Debug\net8.0\sudoku-algorithm.runtimeconfig.json
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\bin\Debug\net8.0\sudoku-algorithm.dll
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\bin\Debug\net8.0\sudoku-algorithm.pdb
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\sudoku-algorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\sudoku-algorithm.AssemblyInfoInputs.cache
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\sudoku-algorithm.AssemblyInfo.cs
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\sudoku-algorithm.csproj.CoreCompileInputs.cache
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\sudoku-algorithm.sourcelink.json
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\sudoku-algorithm.dll
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\refint\sudoku-algorithm.dll
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\sudoku-algorithm.pdb
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\sudoku-algorithm.genruntimeconfig.cache
+D:\Programiranje\dotnet-projects\console\sudoku-algorithm\sudoku-algorithm\obj\Debug\net8.0\ref\sudoku-algorithm.dll

@@ -1,0 +1,15 @@
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\bin\Debug\net8.0\SkockoAlgoritam.exe
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\bin\Debug\net8.0\SkockoAlgoritam.deps.json
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\bin\Debug\net8.0\SkockoAlgoritam.runtimeconfig.json
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\bin\Debug\net8.0\SkockoAlgoritam.dll
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\bin\Debug\net8.0\SkockoAlgoritam.pdb
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\SkockoAlgoritam.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\SkockoAlgoritam.AssemblyInfoInputs.cache
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\SkockoAlgoritam.AssemblyInfo.cs
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\SkockoAlgoritam.csproj.CoreCompileInputs.cache
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\SkockoAlgoritam.sourcelink.json
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\SkockoAlgoritam.dll
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\refint\SkockoAlgoritam.dll
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\SkockoAlgoritam.pdb
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\SkockoAlgoritam.genruntimeconfig.cache
+D:\Programiranje\dotnet-projects\console\SkockoAlgoritam\SkockoAlgoritam\obj\Debug\net8.0\ref\SkockoAlgoritam.dll

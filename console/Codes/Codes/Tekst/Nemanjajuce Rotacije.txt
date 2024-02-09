@@ -1,0 +1,22 @@
+using plm;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        String niska = Console.ReadLine()!;
+
+        String[] niz_karaktera = niska.ToCharArray().Select(x => x.ToString()).ToArray();
+
+        int brojac = 0;
+        for (int i = 0; i < niz_karaktera.Length - 1; i++)
+        {
+            niz_karaktera = Plm.ShiftArrayLeft(niz_karaktera);
+            String novi_string = string.Join("", niz_karaktera);
+            if (novi_string == niska)
+                brojac++;
+            Console.WriteLine(novi_string == niska ? $"{brojac}: {novi_string}" : novi_string);
+        }
+        Console.WriteLine(brojac);
+    }
+}

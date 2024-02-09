@@ -1,0 +1,15 @@
+D:\Programiranje\dotnet-projects\console\Codes\Codes\bin\Debug\net8.0\Codes.exe
+D:\Programiranje\dotnet-projects\console\Codes\Codes\bin\Debug\net8.0\Codes.deps.json
+D:\Programiranje\dotnet-projects\console\Codes\Codes\bin\Debug\net8.0\Codes.runtimeconfig.json
+D:\Programiranje\dotnet-projects\console\Codes\Codes\bin\Debug\net8.0\Codes.dll
+D:\Programiranje\dotnet-projects\console\Codes\Codes\bin\Debug\net8.0\Codes.pdb
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\Codes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\Codes.AssemblyInfoInputs.cache
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\Codes.AssemblyInfo.cs
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\Codes.csproj.CoreCompileInputs.cache
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\Codes.sourcelink.json
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\Codes.dll
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\refint\Codes.dll
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\Codes.pdb
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\Codes.genruntimeconfig.cache
+D:\Programiranje\dotnet-projects\console\Codes\Codes\obj\Debug\net8.0\ref\Codes.dll

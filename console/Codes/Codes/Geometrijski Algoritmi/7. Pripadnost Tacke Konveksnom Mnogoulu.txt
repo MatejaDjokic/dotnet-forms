@@ -1,0 +1,35 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+using System;
+
+using polygon;
+using vec2;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // n je broj tacaka mnogougle
+        int n = int.Parse(Console.ReadLine()!);
+        // pravimo listu tacaka mnogougla
+        List<Vec2> points = new List<Vec2>();
+
+        // u points listu dodajemo tacke 
+        for (int i = 0; i < n; i++)
+            points.Add(new Vec2());
+
+        // m je broj tacaka koje proveravamo
+        int m = int.Parse(Console.ReadLine()!);
+        // pravimu listu tacaka koje treba proveriti
+        List<Vec2> pointsToCheck = new List<Vec2>();
+        // u pointsToCheck dodajemo tacke 
+        for (int i = 0; i < m; i++)
+            pointsToCheck.Add(new Vec2());
+
+        // pravimo mnogougla od liste tacaka mnogougla
+        Polygon polygon = new Polygon(points);
+        // prolazimo kroz sve tacke i ispisujemo da li mnogougao sadrzi tacku
+        pointsToCheck.ForEach((p) =>
+                Console.WriteLine(polygon.ContainsPoint(p) ? "da" : "ne"));
+    }
+}

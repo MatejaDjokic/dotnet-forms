@@ -1,0 +1,27 @@
+﻿using System;
+
+using vec2;
+using line;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Unosimo liniju izmedju tacaka a i b
+        Line l = new Line();
+
+        // Unosimo broj tacaka koje proveravamo
+        int n = int.Parse(Console.ReadLine()!);
+
+        // Prolazeci kroz sve tacke proveravamo da li linija sadrzi tu tacku
+        // Ako je sadrzi povecavamo brojac
+        int brojac = 0;
+        for (int i = 0; i < n; i++)
+        {
+            Vec2 p = new Vec2();
+            if (l.ContainsPoint(p))
+                brojac++;
+        }
+        Console.WriteLine(brojac);
+    }
+}
